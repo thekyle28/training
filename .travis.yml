@@ -1,0 +1,10 @@
+language: java
+jdk: openjdk11
+cache:
+	directories: $HOME/.m2
+notifications:
+	email:
+		recipients: karat28@hotmail.co.uk
+		on_failure: always
+		on_success: never
+
